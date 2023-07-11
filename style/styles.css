@@ -9,6 +9,7 @@
 
        
 .btn-primary{
+    font-size: 30px;
     background-color: #E45373;
     border: none;
     border-radius: 5px;
@@ -64,4 +65,23 @@
     display: flex;
     gap: 300px;
     align-items: center;
+}
+/*hot deal section */
+.hot-container{
+    width: 1250px;
+    height: 400px;
+    background-color: #FEF6F8;
+    display: flex;
+    column-gap: 400px;
+    margin-top: 90px;
+    justify-content: center;
+}
+
+.hot-title{
+    font-size: 32px;
+    margin-top: 100px;
+
+}
+.hot-deal{
+    margin-left: 500px;
 }
