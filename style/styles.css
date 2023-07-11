@@ -1,0 +1,29 @@
+.header{
+    background: #FCEEF2;
+    
+}
+.header-bg{
+    font-size: 22px;
+    font-weight: 700px;
+    
+}
+.btn-primary{
+    background-color: #E45373;
+    border: none;
+    border-radius: 5px;
+    padding:15px 30px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.box1{
+    width: 100px;
+    height: 200px;
+    background-color: rgb(165, 11, 11);
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    margin-left: 150px;
+    margin-top: 20px;
+
+}
