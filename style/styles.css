@@ -89,4 +89,7 @@
 .hot-img{
     margin-left: 250px;
 }
-
+.instagram-imag-wraper{
+    display: flex;
+    gap: 30px;
+}
