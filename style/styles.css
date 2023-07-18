@@ -84,12 +84,16 @@
 
 }
 .hot-deal{
-    margin-left: 100px;
+    margin-top: 100px;
 }
 .hot-img{
     margin-left: 250px;
 }
-.instagram-info{
+.instagram-imag-wraper{
     display: flex;
     gap: 30px;
+}
+.section-title-info{
+    text-align: center;
+    color: aqua;
 }
