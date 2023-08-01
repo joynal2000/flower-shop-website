@@ -1,10 +1,23 @@
 .header{
-    background: #FCEEF2;
+   background: #FCEEF2;
     
 }
-.header-bg{
-    font-size: 22px;
-    font-weight: 700px;
+.header-images{
+    width: 400px;
+    height: 400px;
+    margin-top: -250px;
+}
+.container{
+    display: flex; 
+    background: none;
+    justify-content: space-around;
+}
+.top-title{
+    font-size: 48px;
+    font-weight: 800;
+    margin-left: 150px;
+    margin-top: 100px;
+   
 }
 
        
@@ -23,11 +36,15 @@
     font-size: 18px;
     text-align: center;
 }
-.container{
+.delivary{
     display: flex;
-    justify-content: space-around;
-    
+    margin-top: 100px;
+    margin-left: 50px;
+    max-width: 1024px;
+    background-color: #F4F4F4;
+    justify-content: space-between;
 }
+ 
 .box-container{
     display: flex;
     gap: 25px;
@@ -40,6 +57,10 @@
     border-top-right-radius: 300px;
     border-top-left-radius: 300px;
 }
+.box1-img{
+    margin-top: 50px;
+    margin-left: 15px;
+}
 
 .box2{
     width: 400px;
@@ -48,6 +69,10 @@
     border-top-right-radius: 300px;
     border-top-left-radius: 300px;
 }
+.box2-img{
+    margin-top: 50px;
+    margin-left: 15px;
+}
 .box3{
     width: 400px;
     height: 500px;
@@ -55,6 +80,15 @@
     border-top-right-radius: 300px;
     border-top-left-radius: 300px;
 }
+.box3-img{
+    
+    margin-left: 20px;
+}
+.box-img-caption1{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+
 .container{
     margin-top: 150px;
     width: 1250px;
@@ -67,16 +101,23 @@
     align-items: center;
 }
 /*hot deal section */
-.hot-container{
-    width: 1250px;
+.joynal{
+    display: flex;
+    width: 300px;
+    height: 300px;
+}
+
+
+    /*width: 1250px;
     height: 400px;
     background-color: #FEF6F8;
     display: flex;
     /*column-gap: 400px;
     margin-top: 90px;*/
    /* justify-content: center;
-}*/
+*/
 
+/*
 .hot-title{
     font-size: 32px;
     margin-top: 100px;
@@ -89,11 +130,20 @@
 .hot-img{
     margin-left: 250px;
 }
+*/
 .instagram-imag-wraper{
-    display: flex;
-    gap: 30px;
+   
+     
 }
+
+
+   
+    
+
 .section-title-info{
     text-align: center;
     color: aqua;
+}
+.footer-haed{
+   
 }
